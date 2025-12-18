@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App_Igor_Vicente</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="username">Username (email)</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete">Delete User</string>
+    <string name="logout">Logout</string>
+</resources>

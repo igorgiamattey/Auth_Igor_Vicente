@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "251514645178",
+    "project_id": "app-igor-vicente",
+    "storage_bucket": "app-igor-vicente.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251514645178:android:739bdda5a9d3e4c7837083",
+        "android_client_info": {
+          "package_name": "com.example.app_igor_vicente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtV01N03xB8FPKG9wVNWg41wa2Tev_jPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
