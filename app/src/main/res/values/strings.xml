@@ -5,6 +5,8 @@
     <string name="password">Password</string>
     <string name="username">Username (email)</string>
     <string name="change_password">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="password_changed">Password changed successfully</string>
     <string name="delete">Delete User</string>
     <string name="logout">Logout</string>
 </resources>

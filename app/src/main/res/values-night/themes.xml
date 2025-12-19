@@ -1,7 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.App_Igor_Vicente" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+    <style name="Base.Theme.App_Igor_Vicente"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Core Material 3 colors -->
+        <item name="colorPrimary">@color/grey</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="colorSurface">@color/grey</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/blue</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
     </style>
+
+    <style name="Theme.App_Igor_Vicente"
+        parent="Base.Theme.App_Igor_Vicente" />
+
 </resources>

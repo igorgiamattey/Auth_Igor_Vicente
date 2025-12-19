@@ -9,6 +9,7 @@
         android:id="@+id/btnChangePassword"
         android:text="@string/change_password"
         android:layout_width="match_parent"
+        android:backgroundTint="@color/blue"
         android:layout_height="wrap_content"/>
 
     <Button
@@ -16,6 +17,7 @@
         android:text="@string/delete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
         android:layout_marginTop="12dp"/>
 
     <Button
@@ -23,5 +25,6 @@
         android:text="@string/logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
         android:layout_marginTop="12dp"/>
 </LinearLayout>

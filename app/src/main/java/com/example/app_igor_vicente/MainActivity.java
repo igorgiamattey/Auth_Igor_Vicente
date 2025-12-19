@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        getWindow().setStatusBarColor(
+//                getResources().getColor(R.color.blue, getTheme())
+//        );
+
         mAuth = FirebaseAuth.getInstance();
 
         // 🔑 If user already logged in, skip home

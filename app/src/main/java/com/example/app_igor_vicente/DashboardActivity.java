@@ -34,15 +34,7 @@ public class DashboardActivity extends AppCompatActivity {
         Button btnLogout = findViewById(R.id.btnLogout);
 
         btnChangePassword.setOnClickListener(v -> {
-            user.updatePassword("newPassword123")
-                    .addOnCompleteListener(task -> {
-                        if (task.isSuccessful()) {
-                            Toast.makeText(this, "Password changed", Toast.LENGTH_SHORT).show();
-                            mAuth.signOut();
-                            startActivity(new Intent(this, MainActivity.class));
-                            finish();
-                        }
-                    });
+            startActivity(new Intent(this, ChangePasswordActivity.class));
         });
 
         btnDeleteUser.setOnClickListener(v -> {
